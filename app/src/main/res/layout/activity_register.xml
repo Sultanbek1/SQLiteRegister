@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightwhite"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/goToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:gravity="end"
+            android:textColor="@color/blackcolor"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createAccount"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/blackcolor"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_baseline_face_24"/>
+
+        <EditText
+            android:id="@+id/etFullname"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/Yname"
+            android:layout_marginTop="35dp"
+            android:paddingStart="15dp"
+            android:inputType="text"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/email"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"
+            tools:ignore="InvalidId,RtlSymmetry" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/password"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:id="@+id/etConfirmPass"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/confirm_password"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:id="@+id/btnJoinUs"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:text="@string/joinus"
+            android:textColor="@color/whitecolor"
+            android:textAllCaps="false"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp"
+            android:background="@drawable/join_btn"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/termsAndConditions"
+            android:textColor="@color/fullwhite"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>

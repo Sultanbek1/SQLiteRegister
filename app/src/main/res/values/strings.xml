@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SignInUp</string>
+    <string name="login">Log In</string>
+    <string name="createAccount">Create Your \n Account</string>
+    <string name="Yname"> Your name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="joinus">Join Us</string>
+    <string name="termsAndConditions">By Pressing \'Join Us\' You agree\n to our terms and conditions</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="congragulations">Congragulations!!!</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="success_message">Registration Successful</string>
+</resources>
